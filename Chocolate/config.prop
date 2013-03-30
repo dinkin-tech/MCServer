@@ -1,0 +1,59 @@
+# Dungeons/caves spawn rates, lower number makes the dungeon more common(min 1, 0 disables it)
+# Better dungeons spawn like vanila dungeons
+dungeons = 30
+# Castles spawn in plains
+castles = 30
+# Snow castles spawn in ice plains
+snowCastles = 30
+# Ice caves spawn in cold biomes
+iceCaves = 30
+# Strongholds spawn in taiga biomes
+strongholds = 30
+# Volcanoes spawn in mountains
+volcano = 30
+# Jungle caves spawn in jungles
+jungle = 30
+# Pirate ships spawn in oceans
+pirates = 30
+# Nether cities spawn in the nether
+netherCity = 30
+# Chunck caves, set 0 to disable, 1 to enable
+# Underworld caves, located at the bottom of the world around all the map
+underworld = 0
+# Jungle caves, located around layer 40 in jugle biomes
+jungleChunck = 1
+# Swamp caves, located around layer 40 in swamp biomes
+swampCaves = 1
+# Nether mountains, located on the nether surface
+netherMountains = 1
+# Tunnels spawn around all the world in a infinite line the chance is the aproximate distance between tunnels in chunks
+# Abandoned mineshafts go around layer 40
+mineshafts = 15
+
+#Chest items config.
+#Place them in this format: itemID, itemCount, itemDamage; 
+#Item count and damage are optional. Don't forget to add ";" at the end of each item
+#Chest are common chests, you can find them in all dungeons
+chests = 329; 265,3; 266,2; 296,9; 347; 289,3; 322,2; 50,10; 262,16; 351,2:3; 357;
+
+#Treasures are special chests, you can find them in boss dungeons, put here your mods expensive item IDs, same format as normal treasures
+treasures = 41; 322,5; 381,5; 322,5; 381,5; 264,5;
+
+#IDs
+#First item ID
+itemID = 8000
+#First block ID
+blockID = 249
+
+#Dungeons exporter.
+#Set to 1 to enable dungeons exporter.
+exporterEnabled = 0
+#Exporter block starting id, uses 5 IDs(Only required if the exporter is enabled)
+exporterBlockID = 250
+
+#Misc.
+#Number of mobs spawned on one use spawners, if set to less than 0 will spawn only vanilla monsters.
+numMobsPerSpawner = 1
+
+#Generate dungeons on flat maps(basically mineshafts and floating dungeons)
+dungeonsInFlat = 0
